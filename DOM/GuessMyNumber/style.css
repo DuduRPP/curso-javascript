@@ -7,13 +7,15 @@
 }
 
 body {
-  background-color: aqua;
-  font-size: 16px;
+  background-image: linear-gradient(to bottom right, aqua, rgb(169, 248, 248));
+  font-size: 30px;
   font-family: "Raleway", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .btn {
-  padding: 7px;
+  padding: 10px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -29,15 +31,15 @@ header {
 }
 
 header .btn {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 header .number {
   margin: auto;
   text-align: center;
   background-color: white;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
   border-radius: 50%;
   border: 2px solid #666;
 }
@@ -47,11 +49,30 @@ main {
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
-  align-items: center;
-
   padding: 10px;
 }
 
 section {
-  margin-top: 10px;
+  align-self: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+section.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section.left input {
+  display: block;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+
+  padding: 10px 25px;
+  margin-right: 10px;
+
+  font-size: 50px;
+  text-align: center;
 }
