@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom right, aqua, rgb(169, 248, 248));
+  background-color: aqua;
   font-size: 30px;
   font-family: "Raleway", sans-serif;
   background-repeat: no-repeat;
